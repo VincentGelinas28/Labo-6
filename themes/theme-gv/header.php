@@ -46,7 +46,7 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'theme-gv' ); ?></button>
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="true"><img src="https://s2.svgbox.net/hero-outline.svg?ic=menu-alt-1&amp;color=000000" width="32" height="32"></button>
 			<?php
 			wp_nav_menu(
 				array(

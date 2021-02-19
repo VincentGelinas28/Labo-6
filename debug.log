@@ -1,0 +1,16 @@
+[17-Feb-2021 17:08:27 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[17-Feb-2021 17:08:27 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[17-Feb-2021 17:09:05 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[17-Feb-2021 17:09:05 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[19-Feb-2021 16:30:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\footer.php:25
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\footer.php(25): printf('Theme: %1$s by ...', 'theme-gv, vince...')
+#1 C:\xampp\htdocs\4w4-wordpress\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#3 C:\xampp\htdocs\4w4-wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#4 C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\page.php(38): get_footer()
+#5 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\footer.php on line 25

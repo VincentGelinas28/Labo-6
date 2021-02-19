@@ -48,6 +48,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	- Alignments
 
 --------------------------------------------------------------*/
+/*---------------------couleur menu principal----------------------*/
 /*--------------------------------------------------------------
 # Generic
 --------------------------------------------------------------*/
@@ -387,7 +388,7 @@ input,
 select,
 optgroup,
 textarea {
-  color: #404040;
+  color: black;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
@@ -440,7 +441,7 @@ var {
 
 abbr,
 acronym {
-  border-bottom: 1px dotted #666;
+  border-bottom: 1px dotted white;
   cursor: help;
 }
 
@@ -461,7 +462,7 @@ body {
 }
 
 hr {
-  background-color: #ccc;
+  background-color: white;
   border: 0;
   height: 1px;
   margin-bottom: 1.5em;
@@ -518,11 +519,11 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-  color: #4169e1;
+  color: #000000;
 }
 
 a:visited {
-  color: #800080;
+  color: #000000;
 }
 
 a:hover, a:focus, a:active {
@@ -537,6 +538,51 @@ a:hover, a:active {
   outline: 0;
 }
 
+/*--------------*/
+.main-navigation a {
+  color: white;
+}
+
+.main-navigation a:visited {
+  color: #a4abff;
+}
+
+.main-navigation a:hover, .main-navigation a:focus, .main-navigation a:active {
+  color: #ffffff;
+}
+
+.main-navigation a:focus {
+  outline: thin dotted;
+}
+
+.main-navigation a:hover, .main-navigation a:active {
+  outline: 0;
+}
+
+/* .site-title{
+	a {
+    	color: $color__linksite-title;
+    
+    	&:visited {
+    		color: $color__linksite-title-visited;
+    	}
+    
+    	&:hover,
+    	&:focus,
+    	&:active {
+    		color: $color__linksite-title-hover;
+    	}
+    
+    	&:focus {
+    		outline: thin dotted;
+    	}
+    
+    	&:hover,
+    	&:active {
+    		outline: 0;
+    	}
+    }
+} */
 /* Forms
 --------------------------------------------- */
 button,
@@ -544,7 +590,7 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   border: 1px solid;
-  border-color: #ccc #ccc #bbb;
+  border-color: #ffff #ffff #bbb;
   border-radius: 3px;
   background: #e6e6e6;
   color: rgba(0, 0, 0, 0.8);
@@ -556,7 +602,7 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-  border-color: #ccc #bbb #aaa;
+  border-color: #ffff #bbb #aaa;
 }
 
 button:active, button:focus,
@@ -585,8 +631,8 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-  color: #666;
-  border: 1px solid #ccc;
+  color: black;
+  border: 1px solid #ffff;
   border-radius: 3px;
   padding: 3px;
 }
@@ -611,7 +657,7 @@ textarea:focus {
 }
 
 select {
-  border: 1px solid #ccc;
+  border: 1px solid #ffff;
 }
 
 textarea {
@@ -621,6 +667,17 @@ textarea {
 /*--------------------------------------------------------------
 # Layouts
 --------------------------------------------------------------*/
+.no-sidebar .site {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: "header" "main" "footer";
+}
+
+/*--------------------------------------------------------*/
+.site-branding, #primary, #colophon {
+  margin-left: 3rem;
+}
+
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
@@ -635,7 +692,8 @@ textarea {
   display: none;
   list-style: none;
   margin: 0;
-  padding-left: 0;
+  padding-left: 1rem;
+  background-color: #000;
 }
 
 .main-navigation ul ul {
@@ -677,17 +735,31 @@ textarea {
 }
 
 /* Small menu. */
+.menu-toggle {
+  padding: 0;
+  transition: transform .25s;
+  transform: rotate(0deg);
+  border: 0;
+}
+
+.main-navigation.toggled .menu-toggle {
+  transform: rotate(90deg);
+}
+
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
 }
 
+/*-------------------------------------------tablet---------------------------------*/
 @media screen and (min-width: 37.5em) {
   .menu-toggle {
     display: none;
   }
   .main-navigation ul {
     display: flex;
+    position: static;
+    justify-content: space-around;
   }
 }
 
@@ -890,7 +962,7 @@ textarea {
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
   clip: auto !important;
   clip-path: none;
-  color: #21759b;
+  color: #000000;
   display: block;
   font-size: 0.875rem;
   font-weight: 700;
@@ -938,8 +1010,8 @@ textarea {
 /*-----------------------------------------------------------------------------------*/
 body::after {
   content: "";
-  clip-path: polygon(0 0, 80% 0, 50% 100%, 0 100%);
-  background-color: blue;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  background-color: white;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -950,6 +1022,45 @@ body::after {
   z-index: -1;
 }
 
-.site {
-  margin: 2rem;
+@media (min-width: 800px) {
+  body::after {
+    clip-path: polygon(0 0, 95% 0, 85% 100%, 0 100%);
+    background-color: white;
+  }
 }
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.site-description {
+  font-size: 1.2rem;
+}
+
+.accueil ul {
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+.accueil img {
+  display: block;
+  border-radius: 50%;
+}
+
+.site-info {
+  width: 100vw;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0rem;
+  left: 0rem;
+}
+
+.entry-footer {
+  display: none;
+}
+
+/* .site{
+    margin: 2rem;
+} */

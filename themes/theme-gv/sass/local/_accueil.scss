@@ -1,14 +1,51 @@
 body::after {
     content : "";
-    clip-path: polygon(0 0, 80% 0 , 50% 100% , 0 100%);
-    //background-color: rgb(43, 71, 233);
-    background-color: blue;
-    position: fixed;
-    width : 100%;
-    height : 100%;
-    top : 0;
-    bottom :0;
-    left :0;
-    right : 0;
-    z-index: -1;
+	clip-path: polygon(0 0, 100% 0 , 100% 100% , 0 100%);
+        background-color: white;
+	position: fixed;
+	width : 100%;
+	height : 100%;
+	top : 0;
+	bottom :0;
+	left :0;
+	right : 0;
+	z-index: -1;
+	@include tablet{
+		clip-path: polygon(0 0, 95% 0 , 85% 100% , 0 100%);
+        background-color: white;
+	}
+}
+
+
+.site-title{
+    font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.site-description{
+	font-size: 1.2rem;
+}
+
+.accueil{
+	ul{
+		list-style: none;
+		font-size: 1.4rem;
+	}
+	img{
+		display: block;
+		border-radius: 50%;
+	}
+}
+
+.site-info{
+	width: 100vw;
+	background-color: black;
+	color: white;
+	position: fixed;
+	bottom: 0rem;
+	left: 0rem;
+}
+
+.entry-footer{
+	display: none;
 }

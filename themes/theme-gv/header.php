@@ -44,6 +44,17 @@
 				<p class="site-description"><?php echo $theme_gv_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
+        
+<section class="carrousel">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+</section>
+
+<button id="un">1</button>
+<button id="deux">2</button>
+<button id="trois">3</button>
+
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="true"><img src="https://s2.svgbox.net/hero-outline.svg?ic=menu-alt-1&amp;color=000000" width="32" height="32"></button>

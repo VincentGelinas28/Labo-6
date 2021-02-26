@@ -751,6 +751,10 @@ textarea {
   display: block;
 }
 
+.nav-menu {
+  width: 100vw;
+}
+
 /*-------------------------------------------tablet---------------------------------*/
 @media screen and (min-width: 37.5em) {
   .menu-toggle {
@@ -1008,6 +1012,12 @@ textarea {
 }
 
 /*-----------------------------------------------------------------------------------*/
+body.home {
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
 body::after {
   content: "";
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -1032,6 +1042,10 @@ body::after {
 .site-title {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.site-main {
+  width: 100vw;
 }
 
 .site-description {
@@ -1064,3 +1078,29 @@ body::after {
 /* .site{
     margin: 2rem;
 } */
+.carrousel {
+  width: 300vw;
+  height: 20vh;
+  display: flex;
+  transition: transform .5s;
+  transform: translate(0);
+}
+
+.carrousel div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.carrousel div:nth-of-type(1) {
+  background-color: #13a513;
+}
+
+.carrousel div:nth-of-type(2) {
+  background-color: blue;
+}
+
+.carrousel div:nth-of-type(3) {
+  background-color: red;
+}

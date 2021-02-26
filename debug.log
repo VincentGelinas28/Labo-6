@@ -14,3 +14,28 @@ Stack trace:
 #7 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
 #8 {main}
   thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\footer.php on line 25
+[22-Feb-2021 15:19:50 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\functions.php on line 147
+[22-Feb-2021 15:19:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\4w4-wordpress\wp-includes\class-wp-recovery-mode-email-service.php on line 351
+[22-Feb-2021 15:19:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\4w4-wordpress\wp-includes\class-wp-recovery-mode-email-service.php on line 352
+[22-Feb-2021 15:20:32 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\functions.php on line 147
+[22-Feb-2021 15:21:50 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\functions.php on line 147
+[22-Feb-2021 15:22:06 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\functions.php on line 147
+[22-Feb-2021 15:22:37 UTC] PHP Warning:  filemtime(): stat failed for C:\xampp\htdocs\4w4-wordpress/wp-content/themes/theme-gv/carrousel.js in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\functions.php on line 147
+[22-Feb-2021 15:24:35 UTC] PHP Warning:  filemtime(): stat failed for C:\xampp\htdocs\4w4-wordpress/wp-content/themes/theme-gv/carrousel.js in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\functions.php on line 148
+[22-Feb-2021 15:24:35 UTC] PHP Warning:  filemtime(): stat failed for C:\xampp\htdocs\4w4-wordpress/wp-content/themes/theme-gv/carrousel.js in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\functions.php on line 149
+[22-Feb-2021 15:25:03 UTC] PHP Warning:  filemtime(): stat failed for C:\xampp\htdocs\4w4-wordpress/wp-content/themes/theme-gv/carrousel.js in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\functions.php on line 148
+[22-Feb-2021 15:25:03 UTC] PHP Warning:  filemtime(): stat failed for C:\xampp\htdocs\4w4-wordpress/wp-content/themes/theme-gv/carrousel.js in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\functions.php on line 149
+[22-Feb-2021 15:26:21 UTC] PHP Warning:  filemtime(): stat failed for C:\xampp\htdocs\4w4-wordpress/wp-content/themes/theme-gv/carrousel.js in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\functions.php on line 148
+[22-Feb-2021 15:47:53 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 72
+[22-Feb-2021 15:48:31 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 72
+[22-Feb-2021 15:48:34 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 72
+[22-Feb-2021 15:48:55 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 72
+[22-Feb-2021 15:49:06 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 72
+[22-Feb-2021 15:50:07 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 72
+[22-Feb-2021 15:50:36 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 72
+[22-Feb-2021 15:51:30 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 72
+[22-Feb-2021 15:53:33 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 72
+[22-Feb-2021 15:54:55 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 72
+[22-Feb-2021 15:55:40 UTC] PHP Warning:  filemtime(): stat failed for C:\xampp\htdocs\4w4-wordpress/wp-content/themes/theme-gvjs/carrousel.js in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\functions.php on line 149
+[25-Feb-2021 15:19:40 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting end of file in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 48
+[25-Feb-2021 15:19:47 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting end of file in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 48

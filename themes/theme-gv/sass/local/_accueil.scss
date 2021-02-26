@@ -1,3 +1,9 @@
+body.home{
+	overflow-x: hidden;
+	width: 100vw;
+	height: 100vh;
+}
+
 body::after {
     content : "";
 	clip-path: polygon(0 0, 100% 0 , 100% 100% , 0 100%);
@@ -20,6 +26,10 @@ body::after {
 .site-title{
     font-size: 1.5rem;
 	font-weight: bold;
+}
+
+.site-main{
+	width: 100vw;
 }
 
 .site-description{

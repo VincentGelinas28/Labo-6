@@ -39,3 +39,56 @@ Stack trace:
 [22-Feb-2021 15:55:40 UTC] PHP Warning:  filemtime(): stat failed for C:\xampp\htdocs\4w4-wordpress/wp-content/themes/theme-gvjs/carrousel.js in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\functions.php on line 149
 [25-Feb-2021 15:19:40 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting end of file in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 48
 [25-Feb-2021 15:19:47 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting end of file in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 48
+[08-Mar-2021 13:23:10 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\xampp\htdocs\4w4-wordpress\wp-includes\class-simplepie.php on line 1728
+[08-Mar-2021 13:24:19 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[08-Mar-2021 13:24:19 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[08-Mar-2021 13:24:24 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[08-Mar-2021 13:24:24 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[08-Mar-2021 13:27:24 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[08-Mar-2021 13:27:24 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[08-Mar-2021 13:27:28 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[08-Mar-2021 13:27:28 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[08-Mar-2021 15:23:56 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\functions.php on line 215
+[08-Mar-2021 15:31:36 UTC] PHP Parse error:  syntax error, unexpected variable "$session" in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php on line 29
+[08-Mar-2021 15:45:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_contenu() in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php:31
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php on line 31
+[08-Mar-2021 15:45:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_contenu() in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php:31
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php on line 31
+[08-Mar-2021 15:47:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_contenu() in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php:31
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php on line 31
+[08-Mar-2021 15:59:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_contenu() in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php:31
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php on line 31
+[08-Mar-2021 15:59:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_contenu() in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php:31
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php on line 31
+[08-Mar-2021 16:01:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_contenu() in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php:31
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php on line 31

@@ -29,7 +29,7 @@ get_header();
                 $titre = get_the_title();
                 $session = substr($titre, 4,1);
                 $contenu = get_the_contenu();
-                $resume = substr($contenu,0 ,200);
+                $resume = substr($contenu ,0 , 200);
 
                 ?>
                 <?php
@@ -38,8 +38,8 @@ get_header();
                     }
                     $precedent = $session;
                 ?>
-                <p> <?php the_title(); ?> <p>
-                <p> <?php the_content(); ?> <p>
+                <p> <?php echo $session . " - " . $titre; ?> <p>
+                <p> <?php echo $resume; ?> <p>
 
             <?php
 			endwhile;

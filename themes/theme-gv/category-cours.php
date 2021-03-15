@@ -28,23 +28,14 @@ get_header();
 				the_post();
                 $titre = get_the_title();
                 $session = substr($titre, 4,1);
-                $contenu = get_the_contenu();
-                /* $resume = substr($contenu ,0 , 200); */
+                if($precedent != $session){
+					echo '<p>Session : ' . $session . '</p>';
+				}
 
-                ?>
-                <?php
-                    if($session != $precedent){
-                        echo "<p>Session : " . $session ."<p>";
-                    }
-                    $precedent = $session;
-                ?>
-                <p> <?php echo $session . " - " . $titre; ?> <p>
-                <p> <?php echo $resume; ?> <p>
-
-            <?php
+				echo '<p>' . $session . ' ' .$titre . '</p>';
+				$precedent - $session;
+            
 			endwhile;
-
-
 		endif;
 		?>
 

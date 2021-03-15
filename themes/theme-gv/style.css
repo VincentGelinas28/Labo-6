@@ -696,6 +696,7 @@ textarea {
   margin: 0;
   padding-left: 0;
   background-color: #000;
+  text-align: left;
 }
 
 .main-navigation ul ul {
@@ -703,13 +704,13 @@ textarea {
   float: left;
   position: absolute;
   top: 100%;
+  transition: left .5s;
   left: -999em;
   z-index: 99999;
 }
 
-.main-navigation ul ul ul {
-  left: -999em;
-  top: 0;
+.main-navigation ul ul li a {
+  padding-left: 20px;
 }
 
 .main-navigation ul ul li:hover > ul,
@@ -719,7 +720,7 @@ textarea {
 }
 
 .main-navigation ul ul a {
-  width: 200px;
+  width: 100%;
 }
 
 .main-navigation ul li:hover > ul,
@@ -727,9 +728,8 @@ textarea {
   left: 0;
 }
 
-.main-navigation li {
+.main-navigation ul li {
   position: relative;
-  flex: 1;
 }
 
 .main-navigation a {
@@ -782,6 +782,16 @@ menu tablet
     display: flex;
     position: static;
     justify-content: space-around;
+  }
+  .main-navigation.toggled ul li:hover ul,
+  .main-navigation ul li:hover ul {
+    display: block;
+    position: absolute;
+    width: 300px;
+  }
+  .main-navigation.toggled ul ul,
+  .main-navigation ul ul {
+    display: none;
   }
 }
 

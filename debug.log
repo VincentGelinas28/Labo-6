@@ -269,3 +269,4 @@ Stack trace:
 #2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
 #3 {main}
   thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php on line 36
+[15-Mar-2021 01:35:28 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\xampp\htdocs\4w4-wordpress\wp-includes\class-simplepie.php on line 1728

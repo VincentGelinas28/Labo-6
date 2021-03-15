@@ -11,7 +11,7 @@
 		margin: 0;
 		padding-left: 0;
 		background-color: #000;
-	
+		text-align: left;
 	
 
 		ul {
@@ -19,18 +19,15 @@
 			float: left;
 			position: absolute;
 			top: 100%;
-			
+			transition: left .5s;
 			left: -999em;
 			z-index: 99999;
 
-			ul {
-				left: -999em;
-				top: 0;
-			}
-
-
 			li {
-
+				a{
+					padding-left: 20px;
+				}
+			
 				&:hover > ul,
 				&.focus > ul {
 					display: block;
@@ -40,18 +37,8 @@
 
 
 			a {
-				width: 200px;
+				width: 100%;
 			}
-
-
-			:hover > a,
-			.focus > a {
-			}
-
-			a:hover,
-			a.focus {
-			}
-			
 		}
 
 		li:hover > ul,
@@ -59,20 +46,13 @@
 			left: 0;
 		
 		}
-
-
-	}
-
-	li {
+li {
 		position: relative;
-	 flex : 1;
-
-		&:hover > a,
-		&.focus > a {
-		}
-	
+	}
 
 	}
+
+	
 
 	a {
 		display: block;
@@ -132,6 +112,16 @@ menu tablet
 		display: flex;
 		position : static;
 		justify-content: space-around;
+
+		li:hover ul{
+			display: block;
+			position: absolute;
+			width: 300px;
+		}
+		
+		ul{
+			display: none;
+		}
 		
 	}
 }

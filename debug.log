@@ -270,3 +270,64 @@ Stack trace:
 #3 {main}
   thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php on line 36
 [15-Mar-2021 01:35:28 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\xampp\htdocs\4w4-wordpress\wp-includes\class-simplepie.php on line 1728
+[15-Mar-2021 12:57:19 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\xampp\htdocs\4w4-wordpress\wp-includes\class-simplepie.php on line 1728
+[15-Mar-2021 13:03:22 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[15-Mar-2021 13:03:22 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[15-Mar-2021 13:03:32 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[15-Mar-2021 13:03:32 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[15-Mar-2021 13:09:57 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\xampp\htdocs\4w4-wordpress\wp-includes\class-simplepie.php on line 1728
+[15-Mar-2021 13:11:50 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[15-Mar-2021 13:11:50 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[15-Mar-2021 13:13:02 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[15-Mar-2021 13:13:02 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[15-Mar-2021 13:17:26 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[15-Mar-2021 13:17:26 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[15-Mar-2021 13:17:29 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[15-Mar-2021 13:17:29 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[15-Mar-2021 13:23:06 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\xampp\htdocs\4w4-wordpress\wp-includes\class-simplepie.php on line 1728
+[15-Mar-2021 13:23:26 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[15-Mar-2021 13:23:26 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[15-Mar-2021 13:23:30 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[15-Mar-2021 13:23:30 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4-wordpress\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[15-Mar-2021 13:29:53 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\front-page.php:36
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\front-page.php on line 36
+[15-Mar-2021 13:30:31 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\front-page.php:36
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\front-page.php on line 36
+[15-Mar-2021 13:31:21 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\front-page.php:36
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\front-page.php on line 36
+[15-Mar-2021 13:31:24 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\front-page.php:36
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\front-page.php on line 36
+[15-Mar-2021 13:31:28 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\front-page.php:36
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\front-page.php on line 36
+[15-Mar-2021 13:33:21 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\front-page.php:36
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\front-page.php on line 36

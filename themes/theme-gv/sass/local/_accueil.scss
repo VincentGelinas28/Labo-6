@@ -59,3 +59,25 @@ body::after {
 .entry-footer{
 	display: none;
 }
+
+.home .cours{
+	display: flex;
+	flex-direction: column;
+
+	article{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		border: 1px solid green;
+		p{
+			margin: .3rem;
+			font-size: 1rem;
+		}
+		a{
+			font-size: 2rem;
+			font-weight: bold;
+			text-decoration: none;
+		}
+	}
+}

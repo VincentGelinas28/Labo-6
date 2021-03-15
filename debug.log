@@ -206,3 +206,31 @@ Stack trace:
 #2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
 #3 {main}
   thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php on line 31
+[11-Mar-2021 19:45:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_contenu() in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php:31
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php on line 31
+[11-Mar-2021 19:52:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_contenu() in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php:31
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php on line 31
+[11-Mar-2021 20:03:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_contenu() in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php:31
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php on line 31
+[11-Mar-2021 20:04:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_contenu() in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php:31
+Stack trace:
+#0 C:\xampp\htdocs\4w4-wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4-wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4-wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\category-cours.php on line 31

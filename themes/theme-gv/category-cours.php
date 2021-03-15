@@ -29,7 +29,7 @@ get_header();
                 $titre = get_the_title();
                 $session = substr($titre, 4,1);
                 $contenu = get_the_contenu();
-                $resume = substr($contenu ,0 , 200);
+                /* $resume = substr($contenu ,0 , 200); */
 
                 ?>
                 <?php

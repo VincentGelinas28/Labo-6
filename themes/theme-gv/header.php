@@ -52,9 +52,14 @@
     <div>3</div>
 </section>
 
-<button id="un">1</button>
+<section class="radio">
+<!-- <button id="un">1</button>
 <button id="deux">2</button>
-<button id="trois">3</button>
+<button id="trois">3</button> -->
+<input type="radio" name="radio" id="un" />
+<input type="radio" name="radio" id="deux" />
+<input type="radio" name="radio" id="trois" />
+</section>
 <?php endif ?>
 
 		<nav id="site-navigation" class="main-navigation">

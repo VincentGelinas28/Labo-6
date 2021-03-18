@@ -1087,11 +1087,6 @@ body::after {
   }
 }
 
-/* .home{
-	#primary{
-		margin: 0;
-	}
-} */
 .site-title {
   font-size: 1.5rem;
   font-weight: bold;
@@ -1209,4 +1204,41 @@ body::after {
 
 .carrousel div:nth-of-type(3) {
   background-color: red;
+}
+
+/*-----------------boutton radio---------------------------*/
+.radio {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.radio input {
+  margin: 1rem;
+}
+
+.radio input[type='radio']:after {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  top: -4px;
+  left: -2px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+}
+
+.radio input[type='radio']:checked:after {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  top: -4px;
+  left: -2px;
+  position: relative;
+  background-color: #1300be;
+  content: '';
+  display: inline-block;
+  visibility: visible;
 }

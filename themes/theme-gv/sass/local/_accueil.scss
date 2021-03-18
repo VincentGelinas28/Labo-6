@@ -22,6 +22,12 @@ body::after {
 	}
 }
 
+/* .home{
+	#primary{
+		margin: 0;
+	}
+} */
+
 
 .site-title{
     font-size: 1.5rem;
@@ -59,25 +65,56 @@ body::after {
 .entry-footer{
 	display: none;
 }
-
+/*-------------------------------------liste des bloc de cours--------------------------------*/
 .home .cours{
 	display: flex;
 	flex-direction: column;
+
+	/* section{
+		article{
+			background-color: rgb(206, 206, 206);
+		}
+	} */
+
+	section{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
 
 	article{
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: center;
-		/* border: 1px solid green; */
+		width: 80%;
+		margin: 1%;
 		p{
 			margin: .3rem;
 			font-size: 1rem;
 		}
 		a{
-			font-size: 2rem;
+			font-size: 1.5rem;
 			font-weight: bold;
 			text-decoration: none;
+			margin: 1rem;
 		}
 	}
+
+	
+
+	@include tablet{
+		article{
+			width: 40%;
+			margin: 1%;
+		}
+	}
+
+	@include desktop{
+		article{
+			width: 29%;
+			margin: 1%;
+		}
+	}
+}
 }

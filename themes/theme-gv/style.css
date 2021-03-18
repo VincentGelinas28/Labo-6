@@ -1087,6 +1087,11 @@ body::after {
   }
 }
 
+/* .home{
+	#primary{
+		margin: 0;
+	}
+} */
 .site-title {
   font-size: 1.5rem;
   font-weight: bold;
@@ -1123,28 +1128,57 @@ body::after {
   display: none;
 }
 
+/*-------------------------------------liste des bloc de cours--------------------------------*/
 .home .cours {
   display: flex;
   flex-direction: column;
+  /* section{
+		article{
+			background-color: rgb(206, 206, 206);
+		}
+	} */
 }
 
-.home .cours article {
+.home .cours section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.home .cours section article {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid green;
+  width: 80%;
+  margin: 1%;
 }
 
-.home .cours article p {
+.home .cours section article p {
   margin: .3rem;
   font-size: 1rem;
 }
 
-.home .cours article a {
-  font-size: 2rem;
+.home .cours section article a {
+  font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
+  margin: 1rem;
+}
+
+@media (min-width: 800px) {
+  .home .cours section article {
+    width: 40%;
+    margin: 1%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home .cours section article {
+    width: 29%;
+    margin: 1%;
+  }
 }
 
 /* .site{

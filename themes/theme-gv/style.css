@@ -1132,6 +1132,7 @@ body::after {
 .home .cours {
   display: flex;
   flex-direction: column;
+  margin-bottom: 5rem;
 }
 
 .home .cours section article {

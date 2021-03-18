@@ -1132,11 +1132,10 @@ body::after {
 .home .cours {
   display: flex;
   flex-direction: column;
-  /* section{
-		article{
-			background-color: rgb(206, 206, 206);
-		}
-	} */
+}
+
+.home .cours section article {
+  background-color: #cecece;
 }
 
 .home .cours section {

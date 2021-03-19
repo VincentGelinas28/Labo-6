@@ -1193,22 +1193,21 @@ body::after {
   align-items: center;
   width: 100vw;
   overflow: hidden;
-}
+  /* &:nth-of-type(1){
+            background-color: rgb(19, 165, 19);
+        }
 
-.carrousel div:nth-of-type(1) {
-  background-color: #13a513;
-}
+        &:nth-of-type(2){
+            background-color: blue;
+        }
 
-.carrousel div:nth-of-type(2) {
-  background-color: blue;
-}
-
-.carrousel div:nth-of-type(3) {
-  background-color: red;
+        &:nth-of-type(3){
+            background-color: red;
+        } */
 }
 
 .carrousel div img {
-  width: 100vw;
+  width: 100W;
 }
 
 /*-----------------boutton radio---------------------------*/

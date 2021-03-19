@@ -88,8 +88,8 @@ Bouton burger
 ------------------------------------------------------------------------------*/
 .menu-toggle {
 	padding :0;
-//	transition : transform .25s;
-//	transform : rotate(0deg);
+    transition : transform .25s;
+    transform : rotate(0deg);
 	border : 0;
 }
 .menu-toggle:hover,
@@ -100,10 +100,12 @@ Bouton burger
 .menu-toggle:focus {
     outline: 1px solid #fff;
     outline-offset: -4px;
+	transform: rotate(90deg);
 }
 
 .menu-toggle:active {
     transform: scale(0.99);
+	
 }
 
 /*
@@ -137,11 +139,16 @@ menu tablet
 			display: block;
 			position: absolute;
 			width: 300px;
+			transition: opacity .5s;
+			opacity: 100%;
+
+			/* &:nth-child(2) */
 		}
 		
 		ul{
-			display: none;
+			opacity: 0%;
 		}
+
 		
 	}
 }

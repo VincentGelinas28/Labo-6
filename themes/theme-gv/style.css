@@ -759,6 +759,8 @@ Bouton burger
 ------------------------------------------------------------------------------*/
 .menu-toggle {
   padding: 0;
+  transition: transform .25s;
+  transform: rotate(0deg);
   border: 0;
 }
 
@@ -770,6 +772,7 @@ Bouton burger
 .menu-toggle:focus {
   outline: 1px solid #fff;
   outline-offset: -4px;
+  transform: rotate(90deg);
 }
 
 .menu-toggle:active {
@@ -808,10 +811,13 @@ menu tablet
     display: block;
     position: absolute;
     width: 300px;
+    transition: opacity .5s;
+    opacity: 100%;
+    /* &:nth-child(2) */
   }
   .main-navigation.toggled ul ul,
   .main-navigation ul ul {
-    display: none;
+    opacity: 0%;
   }
 }
 
@@ -1207,7 +1213,7 @@ body::after {
 }
 
 .carrousel div img {
-  width: 100W;
+  width: 100vw;
 }
 
 /*-----------------boutton radio---------------------------*/

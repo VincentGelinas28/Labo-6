@@ -332,3 +332,10 @@ Stack trace:
 #3 {main}
   thrown in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\front-page.php on line 36
 [18-Mar-2021 18:19:08 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\xampp\htdocs\4w4-wordpress\wp-includes\class-simplepie.php on line 1728
+[19-Mar-2021 16:35:40 UTC] PHP Warning:  Undefined variable $sigle in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 52
+[19-Mar-2021 16:35:40 UTC] PHP Warning:  Undefined variable $typeCours in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 52
+[19-Mar-2021 16:35:40 UTC] PHP Warning:  Undefined variable $nbHeure in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 52
+[19-Mar-2021 16:35:40 UTC] PHP Warning:  Undefined variable $titrePartiel in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 53
+[19-Mar-2021 16:35:40 UTC] PHP Warning:  Undefined variable $session in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 54
+[19-Mar-2021 16:49:17 UTC] PHP Warning:  Undefined variable $session in C:\xampp\htdocs\4w4-wordpress\wp-content\themes\theme-gv\header.php on line 50
+[19-Mar-2021 17:32:46 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\xampp\htdocs\4w4-wordpress\wp-includes\class-simplepie.php on line 1728

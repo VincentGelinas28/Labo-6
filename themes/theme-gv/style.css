@@ -1192,6 +1192,7 @@ body::after {
   justify-content: center;
   align-items: center;
   width: 100vw;
+  overflow: hidden;
 }
 
 .carrousel div:nth-of-type(1) {
@@ -1204,6 +1205,10 @@ body::after {
 
 .carrousel div:nth-of-type(3) {
   background-color: red;
+}
+
+.carrousel div img {
+  width: 100vw;
 }
 
 /*-----------------boutton radio---------------------------*/

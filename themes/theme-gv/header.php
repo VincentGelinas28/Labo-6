@@ -47,9 +47,9 @@
         <?php
 		if ( is_front_page()) : ?>
 <section class="carrousel">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
+    <div><img src="http://localhost/4w4-wordpress/wp-content/uploads/2021/03/image2.jpg" alt=""></div>
+    <div><img src="http://localhost/4w4-wordpress/wp-content/uploads/2021/03/image1.jpg" alt=""></div>
+    <div><img src="http://localhost/4w4-wordpress/wp-content/uploads/2021/03/image3-1.jpg" alt=""></div>
 </section>
 
 <section class="radio">

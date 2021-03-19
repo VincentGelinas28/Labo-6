@@ -685,15 +685,18 @@ textarea {
 --------------------------------------------- */
 .main-navigation {
   display: block;
-  width: 100%;
+  width: 100vw;
 }
 
 .main-navigation ul {
   display: none;
+  position: absolute;
+  width: 100%;
   list-style: none;
   margin: 0;
-  padding-left: 1rem;
+  padding-left: 0;
   background-color: #000;
+  text-align: left;
 }
 
 .main-navigation ul ul {
@@ -701,13 +704,13 @@ textarea {
   float: left;
   position: absolute;
   top: 100%;
+  transition: left .5s;
   left: -999em;
   z-index: 99999;
 }
 
-.main-navigation ul ul ul {
-  left: -999em;
-  top: 0;
+.main-navigation ul ul li a {
+  padding-left: 20px;
 }
 
 .main-navigation ul ul li:hover > ul,
@@ -717,24 +720,43 @@ textarea {
 }
 
 .main-navigation ul ul a {
-  width: 200px;
+  width: 100%;
 }
 
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
-  left: auto;
+  left: 0;
 }
 
-.main-navigation li {
+.main-navigation ul li {
   position: relative;
+}
+
+.main-navigation ul a[href='#']::after {
+  position: absolute;
+  content: "+";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 90%;
+  right: 0;
+}
+
+.main-navigation ul li.focus a[href='#']::after,
+.main-navigation ul a[href='#']:hover::after {
+  content: "-";
 }
 
 .main-navigation a {
   display: block;
   text-decoration: none;
+  padding: .5rem;
 }
 
-/* Small menu. */
+/* -----------------------------------------------------------------------------
+Bouton burger 
+------------------------------------------------------------------------------*/
 .menu-toggle {
   padding: 0;
   transition: transform .25s;
@@ -742,28 +764,60 @@ textarea {
   border: 0;
 }
 
-.main-navigation.toggled .menu-toggle {
+.menu-toggle:hover,
+.menu-toggle:focus {
+  background: #fafbfc;
+}
+
+.menu-toggle:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
   transform: rotate(90deg);
 }
 
+.menu-toggle:active {
+  transform: scale(0.99);
+}
+
+/*
+.main-navigation.toggled .menu-toggle{
+	transform : rotate(90deg);
+}
+*/
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
 }
 
-.nav-menu {
-  width: 100vw;
-}
-
-/*-------------------------------------------tablet---------------------------------*/
+/* ---------------------------------------------------------------------------
+menu tablet
+------------------------------------------------------------------------------ */
 @media screen and (min-width: 37.5em) {
   .menu-toggle {
     display: none;
   }
+  .main-navigation.toggled ul,
   .main-navigation ul {
     display: flex;
     position: static;
     justify-content: space-around;
+  }
+  .main-navigation.toggled ul a[href='#']::after,
+  .main-navigation ul a[href='#']::after {
+    display: none;
+  }
+  .main-navigation.toggled ul li:hover ul,
+  .main-navigation ul li:hover ul {
+    display: block;
+    position: absolute;
+    width: 300px;
+    transition: opacity .5s;
+    opacity: 100%;
+    /* &:nth-child(2) */
+  }
+  .main-navigation.toggled ul ul,
+  .main-navigation ul ul {
+    opacity: 0%;
   }
 }
 
@@ -1075,6 +1129,59 @@ body::after {
   display: none;
 }
 
+/*-------------------------------------liste des bloc de cours--------------------------------*/
+.home .cours {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.home .cours section article {
+  background-color: #cecece;
+}
+
+.home .cours section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.home .cours section article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 1%;
+}
+
+.home .cours section article p {
+  margin: .3rem;
+  font-size: 1rem;
+}
+
+.home .cours section article a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+@media (min-width: 800px) {
+  .home .cours section article {
+    width: 40%;
+    margin: 1%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home .cours section article {
+    width: 29%;
+    margin: 1%;
+  }
+}
+
 /* .site{
     margin: 2rem;
 } */
@@ -1091,16 +1198,57 @@ body::after {
   justify-content: center;
   align-items: center;
   width: 100vw;
+  overflow: hidden;
+  /* &:nth-of-type(1){
+            background-color: rgb(19, 165, 19);
+        }
+
+        &:nth-of-type(2){
+            background-color: blue;
+        }
+
+        &:nth-of-type(3){
+            background-color: red;
+        } */
 }
 
-.carrousel div:nth-of-type(1) {
-  background-color: #13a513;
+.carrousel div img {
+  width: 100vw;
 }
 
-.carrousel div:nth-of-type(2) {
-  background-color: blue;
+/*-----------------boutton radio---------------------------*/
+.radio {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
-.carrousel div:nth-of-type(3) {
-  background-color: red;
+.radio input {
+  margin: 1rem;
+}
+
+.radio input[type='radio']:after {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  top: -4px;
+  left: -2px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+}
+
+.radio input[type='radio']:checked:after {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  top: -4px;
+  left: -2px;
+  position: relative;
+  background-color: #1300be;
+  content: '';
+  display: inline-block;
+  visibility: visible;
 }

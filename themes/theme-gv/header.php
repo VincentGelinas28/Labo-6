@@ -46,20 +46,18 @@
 		</div><!-- .site-branding -->
         <?php
 		if ( is_front_page()) : ?>
-<section class="carrousel">
+<!-- <section class="carrousel">
     <div><img src="http://localhost/4w4-wordpress/wp-content/uploads/2021/03/image2.jpg" alt=""></div>
     <div><img src="http://localhost/4w4-wordpress/wp-content/uploads/2021/03/image1.jpg" alt=""></div>
     <div><img src="http://localhost/4w4-wordpress/wp-content/uploads/2021/03/image3-1.jpg" alt=""></div>
 </section>
 
 <section class="radio">
-<!-- <button id="un">1</button>
-<button id="deux">2</button>
-<button id="trois">3</button> -->
+
 <input type="radio" name="radio" id="un" />
 <input type="radio" name="radio" id="deux" />
 <input type="radio" name="radio" id="trois" />
-</section>
+</section> -->
 <?php endif ?>
 
 		<nav id="site-navigation" class="main-navigation">

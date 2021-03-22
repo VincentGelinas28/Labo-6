@@ -9,6 +9,50 @@
 
 get_header();
 ?>
+
+<section class="carrousel">
+	
+    <article class="slide_conteneur">
+		<div class="slide">
+			<img src="http://localhost/4w4-wordpress/wp-content/uploads/2021/03/image3-1.jpg" alt="">
+			<div class="slide_info"></div>
+			<p>582-3W3 - Web - 90h</p>
+			<a href="http://localhost/4w4-wordpress/582-3w3-creation-de-sites-web-dynamiques-90h/">Création de sites Web dynamiques</a>
+			<p>Session : 3</p>
+		</div>
+	</article>
+
+    <article class="slide_conteneur">
+		<div class="slide">
+			<img src="" alt="">
+			<div class="slide_info"></div>
+			<p>582-3W3 - Web - 90h</p>
+			<a href="http://localhost/4w4-wordpress/582-3w3-creation-de-sites-web-dynamiques-90h/">Création de sites Web dynamiques</a>
+			<p>Session : 3</p>
+		</div>
+	</article>
+
+    <article class="slide_conteneur">
+		<div class="slide">
+			<img src="" alt="">
+			<div class="slide_info"></div>
+			<p>582-3W3 - Web - 90h</p>
+			<a href="http://localhost/4w4-wordpress/582-3w3-creation-de-sites-web-dynamiques-90h/">Création de sites Web dynamiques</a>
+			<p>Session : 3</p>
+		</div>
+	</article>
+</section>
+
+<section class="radio">
+<!-- <button id="un">1</button>
+<button id="deux">2</button>
+<button id="trois">3</button> -->
+<input type="radio" name="radio" id="un" />
+<input type="radio" name="radio" id="deux" />
+<input type="radio" name="radio" id="trois" />
+</section>
+
+
 	<main id="primary" class="site-main">
 
 		<?php if ( have_posts() ) : ?>

@@ -1,5 +1,5 @@
 .carrousel{
-    width: 300vw;
+    width: 500vw;
     height: 30vh;
     display: flex;
     transition: transform .5s;
@@ -12,6 +12,7 @@
         overflow: hidden;
         .slide{
             width: 100%;
+            height: 150px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -25,10 +26,16 @@
             img{
                 display: block;
                 margin: 2%;
+                width: 125px;
+                height: 125px;
+                position: absolute;
+                left: 0;
+                top: 0;
             }
             .slide_info{
                 display: flex;
                 flex-direction: column;
+                align-items: center;
                 p{
                     font-size: .8rem;
                 }

@@ -14,31 +14,54 @@ get_header();
 	
     <article class="slide_conteneur">
 		<div class="slide">
-			<img src="http://localhost/4w4-wordpress/wp-content/uploads/2021/03/image3-1.jpg" alt="">
-			<div class="slide_info"></div>
-			<p>582-3W3 - Web - 90h</p>
-			<a href="http://localhost/4w4-wordpress/582-3w3-creation-de-sites-web-dynamiques-90h/">Création de sites Web dynamiques</a>
-			<p>Session : 3</p>
+			<div class="slide_info">
+			<img src="" alt="">
+			<p>582-1W1 - Web - 75h</p>
+			<a href="http://localhost/4w4-wordpress/582-1w1-mise-en-page-web-75h/">Mise en page Web</a>
+			<p>Session : 1</p>
+			</div>
 		</div>
 	</article>
 
     <article class="slide_conteneur">
 		<div class="slide">
 			<img src="" alt="">
-			<div class="slide_info"></div>
-			<p>582-3W3 - Web - 90h</p>
-			<a href="http://localhost/4w4-wordpress/582-3w3-creation-de-sites-web-dynamiques-90h/">Création de sites Web dynamiques</a>
-			<p>Session : 3</p>
+			<div class="slide_info">
+			<p>582-2W2 - Web - 75h</p>
+			<a href="http://localhost/4w4-wordpress/582-2w2animation-et-interactivite-web-75h/">Animation et interactivité Web</a>
+			<p>Session : 2</p>
+			</div>
 		</div>
 	</article>
 
     <article class="slide_conteneur">
 		<div class="slide">
 			<img src="" alt="">
-			<div class="slide_info"></div>
+			<div class="slide_info">
 			<p>582-3W3 - Web - 90h</p>
 			<a href="http://localhost/4w4-wordpress/582-3w3-creation-de-sites-web-dynamiques-90h/">Création de sites Web dynamiques</a>
 			<p>Session : 3</p>
+			</div>
+		</div>
+	</article>
+	<article class="slide_conteneur">
+		<div class="slide">
+			<img src="" alt="">
+			<div class="slide_info">
+			<p>582-4W4 - Web - 90h</p>
+			<a href="http://localhost/4w4-wordpress/582-4w4-conception-dinterfaces-et-developpement-web/">Conception d’interfaces et développement Web</a>
+			<p>Session : 4</p>
+			</div>
+		</div>
+	</article>
+	<article class="slide_conteneur">
+		<div class="slide">
+			<img src="" alt="">
+			<div class="slide_info">
+			<p>582-5PA - Web - 60h</p>
+			<a href="http://localhost/4w4-wordpress/582-5pa-technologies-emergentes-et-avancees-volet-programmation-60h/">Technologies émergentes et avancées – volet Programmation</a>
+			<p>Session : 5</p>
+			</div>
 		</div>
 	</article>
 </section>
@@ -50,6 +73,8 @@ get_header();
 <input type="radio" name="radio" id="un" />
 <input type="radio" name="radio" id="deux" />
 <input type="radio" name="radio" id="trois" />
+<input type="radio" name="radio" id="quatre" />
+<input type="radio" name="radio" id="cinq" />
 </section>
 
 

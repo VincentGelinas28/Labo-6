@@ -12,6 +12,7 @@
 		padding-left: 0;
 		background-color: #000;
 		text-align: left;
+		z-index: 999;
 	
 
 		ul {
@@ -100,7 +101,7 @@ Bouton burger
 .menu-toggle:focus {
     outline: 1px solid #fff;
     outline-offset: -4px;
-	transform: rotate(90deg);
+	/* transform: rotate(90deg); */
 }
 
 .menu-toggle:active {
@@ -108,15 +109,16 @@ Bouton burger
 	
 }
 
-/*
+
 .main-navigation.toggled .menu-toggle{
 	transform : rotate(90deg);
 }
-*/
+
 
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
+	
 }
 /* ---------------------------------------------------------------------------
 menu tablet
@@ -126,6 +128,7 @@ menu tablet
 	.menu-toggle {
 		display: none;
 	}
+	
 	.main-navigation.toggled ul,
 	.main-navigation ul {
 		display: flex;

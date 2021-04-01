@@ -26,6 +26,9 @@ body::after {
 .site-title{
     font-size: 1.5rem;
 	font-weight: bold;
+	a{
+		text-decoration: none;
+	}
 }
 
 .site-main{
@@ -68,6 +71,62 @@ body::after {
 	section{
 		article{
 			background-color: rgb(206, 206, 206);
+			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			
+		}
+	}
+/*------------------h2 web-------------------*/
+	h2{
+		&:nth-of-type(1){
+			display: none;
+		}
+	}
+/*------------------web----------------*/
+	section{
+		&:nth-of-type(1){
+			article{
+				display: none;
+			}
+		}
+	}
+/*-----------------specifique----------------------*/
+	section{
+		&:nth-of-type(2){
+			article{
+                border-radius: 5px;
+                background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+                overflow: hidden;
+			}
+		}
+	}
+	/*-----------------jeu----------------------*/
+	section{
+		&:nth-of-type(3){
+			article{
+				border-radius: 5px;
+                background-image: linear-gradient(to top, #dbacee 0%, #fae7fd 100%);
+                overflow: hidden;
+			}
+		}
+	}
+	/*-----------------imagerie----------------------*/
+	section{
+		&:nth-of-type(4){
+			article{
+				border-radius: 5px;
+                background-image: linear-gradient(to top, #aceec5 0%, #e7fdfb 100%);
+                overflow: hidden;
+			}
+		}
+	}
+	/*-------------------conception--------------------*/
+	section{
+		&:nth-of-type(5){
+			article{
+				border-radius: 5px;
+                background-image: linear-gradient(to top, #eee4ac 0%, #fdfde7 100%);
+                overflow: hidden;
+			}
 		}
 	}
 
@@ -87,12 +146,16 @@ body::after {
 		p{
 			margin: .3rem;
 			font-size: 1rem;
+			font-weight: bold;
 		}
 		a{
-			font-size: 1.5rem;
+			font-size: 1.5rem; 
 			font-weight: bold;
 			text-decoration: none;
 			margin: 1rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 		}
 	}
 

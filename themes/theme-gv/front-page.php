@@ -59,7 +59,7 @@ get_header();
 			<img src="" alt="">
 			<div class="slide_info">
 			<p>582-5PA - Web - 60h</p>
-			<a href="http://localhost/4w4-wordpress/582-5pa-technologies-emergentes-et-avancees-volet-programmation-60h/">Technologies émergentes et avancées – volet Programmation</a>
+			<a href="http://localhost/4w4-wordpress/582-5pa-technologies-emergentes-et-avancees-volet-programmation-60h/">Technologies émergentes et avancées</a>
 			<p>Session : 5</p>
 			</div>
 		</div>
